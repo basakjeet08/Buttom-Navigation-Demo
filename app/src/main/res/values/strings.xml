@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bottom Navigation With Buttons</string>
+
+    <string name="back_button">Back</string>
+    <string name="back">Back</string>
+
+    <string name="start">Start</string>
+    <string name="flavour">Flavour</string>
+    <string name="pickup">Pickup</string>
+    <string name="summary">Summary</string>
+    <string name="title_activity_home">Home Activity</string>
+</resources>
