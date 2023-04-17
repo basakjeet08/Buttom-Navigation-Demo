@@ -46,7 +46,7 @@ sealed class BottomNavOptions(
         )
     }
 
-    // Teacher List Option for Going
+    // Start Option Screen Route Option
     object StartOption : BottomNavOptions(
         route = BottomNavRoutes.StartRoute.route,
         labelOfIcon = R.string.start,
@@ -60,7 +60,7 @@ sealed class BottomNavOptions(
         }
     )
 
-    // Student Review History Option for Going
+    // Flavour Option Screen Route Option
     object FlavourOption : BottomNavOptions(
         route = BottomNavRoutes.FlavourRoute.route,
         labelOfIcon = R.string.flavour,
@@ -74,7 +74,7 @@ sealed class BottomNavOptions(
         }
     )
 
-    // Profile Option to go For
+    // Pickup Option Screen Route Option
     object PickupOption : BottomNavOptions(
         route = BottomNavRoutes.PickupRoute.route,
         labelOfIcon = R.string.pickup,
@@ -88,7 +88,7 @@ sealed class BottomNavOptions(
         }
     )
 
-    // Profile Option to go For
+    // Summary Option Screen Route Option
     object SummaryOption : BottomNavOptions(
         route = BottomNavRoutes.SummaryRoute.route,
         labelOfIcon = R.string.summary,

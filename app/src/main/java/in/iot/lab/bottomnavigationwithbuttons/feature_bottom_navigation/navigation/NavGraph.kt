@@ -20,7 +20,7 @@ fun HomeNavGraph(navController: NavHostController) {
         startDestination = BottomNavRoutes.StartRoute.route,
         builder = {
 
-            // Teacher List Bottom Navigation Option
+            // Start Option Screen Route Option
             composable(
                 BottomNavRoutes.StartRoute.route,
                 content = {
@@ -28,18 +28,19 @@ fun HomeNavGraph(navController: NavHostController) {
                 }
             )
 
-            // History Bottom Navigation Option
+            // Flavour Option Screen Route Option
             composable(
                 BottomNavRoutes.FlavourRoute.route,
                 content = { FlavourScreen(navController = navController) }
             )
 
-            // Profile Bottom Navigation Options
+            // Pickup Option Screen Route Option
             composable(
                 BottomNavRoutes.PickupRoute.route,
                 content = { PickupScreen(navController = navController) }
             )
 
+            // Summary Option Screen Route Option
             composable(
                 BottomNavRoutes.SummaryRoute.route,
                 content = { SummaryScreen(navController = navController) }
